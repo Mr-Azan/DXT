@@ -4,7 +4,7 @@ import os,sys,re,time,random,json,string,requests,bs4
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 logo="""
 [ version : 0.5 ]
-      ###    ##     ## ########  
+   ###    ##     ## ########  
   ## ##    ##   ##  ##     ## 
  ##   ##    ## ##   ##     ## 
 ##     ##    ###    ########  
